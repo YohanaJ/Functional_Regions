@@ -11,12 +11,12 @@ R (for clustering analysis and figure generation)
 ### Dataset
 The dataset used in this project is provided in the data directory. It includes all the necessary information for running the analysis, such as trait data and species distribution
 
-# # # Running the Analysis
+### Running the Analysis
 Functional Distance Calculation (Julia)
 Navigate to the functional_distance directory.
 Run the Julia script to calculate the functional distances.
 
 
-# # # Clustering and Visualization (R)
+### Clustering and Visualization (R)
 Navigate to the clustering_and_visualization directory.
 Run the R script to perform clustering and generate figures.
