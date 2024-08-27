@@ -13,7 +13,7 @@ The dataset used in this project is provided in the data directory. It includes 
 ### Functional Trait Imputation
 The information on how functional traits were imputed is available [here](https://www.nature.com/articles/s41467-022-30888-2).
 ### Data Collection Information
-The methodology and data on species distribution are available [here]([your-link-her](https://onlinelibrary.wiley.com/doi/10.1111/geb.13877))
+The methodology and data on species distribution are available [here](https://onlinelibrary.wiley.com/doi/10.1111/geb.13877)
 
 
 ### Running the Analysis
