@@ -20,16 +20,11 @@ library(cluster)        # For clustering algorithms
 
 
 # Set the working directory
-setwd("D:/equal_area/publicar")
+setwd("D:/")
 
-# Read in the distance matrices 
-df_part_1 <- read_parquet("dist_matrix1.parquet")
-df_part_2 <- read_parquet("dist_matrix2.parquet")
-df_part_3 <- read_parquet("dist_matrix3.parquet")
-df_part_4 <- read_parquet("dist_matrix4.parquet")
 
 # Combine the data into one dataframe
-distib <- bind_rows(df_part_1, df_part_2, df_part_3, df_part_4)
+distib <- read_feather("equal_area/distance_matrix_natives_r7.arrow")
 
 
 # Read latitude and longitude data
