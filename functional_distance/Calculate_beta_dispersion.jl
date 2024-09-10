@@ -65,4 +65,4 @@ end
 ll = CSV.read(string("lat_long_7.csv"), DataFrame)
 lld = pairwise(Haversine(), transpose(hcat(ll.new_lon, ll.new_lat)), transpose(hcat(ll.new_lon, ll.new_lat)))
 lld2 = DataFrame(hcat(ll.new_grid_id, lld), vcat(["new_grid_id"], [string(round(Int32, x)) for x in ll.new_grid_id])) 
-Arrow.write(string("/home/dsenn/Git/cluster_forests/data/julia/distance_matrix_Haversine_non_natives7.arrow"), lld2)
+Arrow.write(string("/home/dsenn/Git/cluster_forests/data/julia/distance_matrix_7.arrow"), lld2)
