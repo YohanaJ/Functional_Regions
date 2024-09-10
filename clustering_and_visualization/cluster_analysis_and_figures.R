@@ -24,7 +24,7 @@ setwd("D:/")
 
 
 # Combine the data into one dataframe
-distib <- read_feather("equal_area/distance_matrix_natives_r7.arrow")
+distib <- read_feather("equal_area/distance_matrix_7.arrow")
 
 
 # Read latitude and longitude data
