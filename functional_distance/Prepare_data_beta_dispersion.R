@@ -26,7 +26,7 @@ ll_grids <- read_csv("grids_dggridR_lat_longs_forested.csv")
 dggs <- dgconstruct(res = myres)
 
 # create the suffix for writing files
-suffix <- paste0("non_natives", myres, "")
+suffix <- paste0(myres, "")
 
 # read in the community data
 comm <- arrow::read_feather("comm_equal_area.feather") %>%
