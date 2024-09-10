@@ -28,7 +28,7 @@ distib <- read_feather("equal_area/distance_matrix_7.arrow")
 
 
 # Read latitude and longitude data
-ll <- read_csv("lat_long.csv")
+ll <- read_csv("lat_long_7.csv")
 
 # Ensure that the column names align with the data
 sum(distib$col != as.numeric(names(distib)[-1]))
