@@ -17,8 +17,10 @@ The methodology and data on species distribution are available [here](https://on
 
 ### Running the Analysis
 Functional Distance Calculation (Julia)
-Navigate to the functional_distance directory.
-Run the Julia script to calculate the functional distances. 
+Navigate to the `functional_distance` directory.  
+Run the Julia script to calculate the functional distances.
+
+**Note:** For our data, the script may take approximately **2 hours** to complete on a typical desktop computer, depending on the system's performance.
 
 
 ### Clustering and Visualization (R)
