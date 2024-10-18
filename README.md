@@ -24,5 +24,6 @@ Run the Julia script to calculate the functional distances.
 
 
 ### Clustering and Visualization (R)
-Navigate to the clustering_and_visualization directory.
+Navigate to the `clustering_and_visualization ` directory.  
 Run the R script to perform clustering and generate figures.
+
