@@ -5,8 +5,8 @@ This repository contains the code and datasets used in the project Delineating G
 ###  Prerequisites
 To run the analysis, you will need to have the following software installed:
 
-Julia (for functional distance calculation)
-R (for clustering analysis and figure generation)
+Julia v1.10.3 (for functional distance calculation). Instructions to download and install Julia can be found here: https://julialang.org/downloads/
+ R 4.3.2 (for clustering analysis and figure generation). Instructions to download and install R can be found here: https://posit.co/download/rstudio-desktop/
 
 ### Dataset
 The dataset used in this project is provided in the data directory. It includes all the necessary information for running the analysis, such as trait data and species distribution
@@ -19,7 +19,7 @@ The methodology and data on species distribution are available [here](https://on
 ### Running the Analysis
 Functional Distance Calculation (Julia)
 Navigate to the functional_distance directory.
-Run the Julia script to calculate the functional distances.
+Run the Julia script to calculate the functional distances. 
 
 
 ### Clustering and Visualization (R)
