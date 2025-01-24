@@ -16,16 +16,14 @@ library(tidyverse)
 # specify the resolution of the map
 myres <- 7
 
-# are we doing phylogenetic distance?
-use_phylo <- FALSE
 
-# are we doing all traits together or each separately?
+use_phylo <- FALSE
 do_each_trait <- TRUE
 
 # read in the grids
 ll_grids <- read_csv("grids_dggridR_lat_longs_forested.csv")
 
-# construct the grid for the given resolution -- natives only works with 7 for now
+# construct the grid for the given resolution
 dggs <- dgconstruct(res = myres)
 
 # create the suffix for writing files
