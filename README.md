@@ -1,4 +1,5 @@
-# Delineating Global Tree Functional Regions: A Trait-Based Approach
+# A global regionalization of tree functional capacity
+
 ## Project Overview
 This repository contains the code and datasets used in the project Delineating Global Tree Functional Regions: A Trait-Based Approach. The project aims to create a comprehensive functional regionalization of global forests by analyzing 18 key functional traits.
 ## Getting Started
